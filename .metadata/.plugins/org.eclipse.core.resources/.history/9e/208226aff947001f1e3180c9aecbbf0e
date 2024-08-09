@@ -1,0 +1,31 @@
+package java_methods;
+
+public class Calculator{
+		public void add (int a, int b) {
+		//adding	
+		int sum;
+		sum = a+b; 
+		System.out.println("The sum of two numbers is:" +sum);
+		
+		}
+		//sub 
+        public void sub(int a, int b) {
+        	int diff;
+        	diff = a-b;
+        	System.out.println("the difference of two numbers is" +diff);
+        	
+        }
+       // string length
+        public void length(String name) {
+    	
+    		int a= name.length();
+    		System.out.println("length of the string is: "+a );
+    		
+    		
+    	}
+		
+		 
+		
+
+	}
+

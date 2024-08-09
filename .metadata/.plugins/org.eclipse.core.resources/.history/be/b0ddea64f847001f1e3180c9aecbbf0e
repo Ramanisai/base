@@ -1,0 +1,12 @@
+package java_methods;
+
+public class stringlength {
+	public static void main (String args[]) {
+		String name= "Ramani Sai";
+		int a= name.length();
+		System.out.println("length of the string is: "+a );
+		
+		
+	}
+
+}

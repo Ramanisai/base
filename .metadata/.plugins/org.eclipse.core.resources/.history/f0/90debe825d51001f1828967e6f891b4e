@@ -1,0 +1,22 @@
+package java_methods;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Collections {
+
+	public static void main(String[] args) {
+		ArrayList<String> list= new ArrayList<String>();
+		list.add("Ramani");
+		list.add("Sai");
+		list.add("Lakshmi");
+		list.add("Ramani");
+		System.out.println("Size of array: "+ list.size());
+		
+		Iterator itr= list.iterator();
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+
+}

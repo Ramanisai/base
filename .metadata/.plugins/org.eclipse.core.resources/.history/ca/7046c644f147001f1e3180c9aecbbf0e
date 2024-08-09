@@ -1,0 +1,18 @@
+package java_methods;
+
+public class Adding2 {
+	
+
+	public static void main(String[] args) {
+		int a=10;
+		int b=20;
+		Calculator cal = new Calculator();
+		cal.add(a, b);
+		cal.add(20, 30);;
+		
+		
+		
+
+	}
+
+}

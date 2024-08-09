@@ -1,0 +1,14 @@
+package java_methods;
+
+public class rstring {
+	public static void main(String[] args) {
+		String countries[]= {"India","US","China", "Uk", "Germany"};
+		for(String cn: countries) {
+			System.out.println(cn);
+		}
+		
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package java_methods;
+
+public class submethod {
+	public static void main (String args[]) {
+		int a=50;
+		int b=50;
+		Calculator cal= new Calculator();
+		cal.sub(a, b);
+		cal.sub(100, 100);
+				
+	}
+
+}
